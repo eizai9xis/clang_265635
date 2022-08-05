@@ -4,7 +4,7 @@ https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=265635
 
 To Reproduce:
 
-cd <scratch area>
+cd (to some scratch area)
 git clone https://github.com/jim-olsen/StarlinkRemote
 python3 -m venv py3_venv/SR
 export CFLAGS="-D_THREAD_SAFE"
